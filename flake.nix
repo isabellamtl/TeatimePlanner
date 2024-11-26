@@ -1,6 +1,6 @@
 {
   ## TODO: Change to your project's description:
-  description = "Nix template for Effekt projects";
+  description = "An application for scheduling informal meetings, such as tea sessions or small group discussions. It collects participants' availability and suggests optimal meeting times that accommodate everyone. Any user can create a meeting and invite others to participate.";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -22,7 +22,7 @@
 
         ## Project configuration
         # TODO: Change to your project's details:
-        pname = "effekt-template";         # package name
+        pname = "teatime-planner";         # package name
         version = "0.1.0";                 # package version
         mainFile = "src/main.effekt";      # relative path to entrypoint (as a string)
         testFiles = [ "src/test.effekt" ]; # relative paths to tests (as a string)
